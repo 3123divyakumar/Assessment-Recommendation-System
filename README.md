@@ -35,14 +35,11 @@ Embeddings_shl/
 ├── clean_metadata.py           # Clean raw SHL metadata
 ├── generate_embeddings.py      # Generate and save embeddings
 ├── handle_query.py             # Load query and get top N results
-├── main.py                     # Optional: combine full pipeline
 ├── query_eval_set.json         # Sample test queries
 ├── requirements.txt
 ├── scraper.py                  # Crawl data from SHL catalog
 ├── shl_metadata_index.csv/json
-├── utils.py                    # Core functions for embedding + search
 ```
-
 ---
 
 ## 🛠 Tech Stack
