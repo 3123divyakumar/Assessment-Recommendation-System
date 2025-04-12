@@ -1,6 +1,6 @@
-# 🧠 SHL Assessment Recommendation System
+# SHL Assessment Recommendation System
 
-## 📌 Project Overview
+## Project Overview
 
 This project builds an intelligent recommendation system to assist hiring managers in selecting relevant SHL assessments based on a natural language job description or query. The system uses semantic search over embedded assessment data to return the top recommendations.
 
@@ -8,7 +8,7 @@ This project builds an intelligent recommendation system to assist hiring manage
 
 ---
 
-## ✅ What This Does
+## What This Does
 
 - Takes **a natural language job description or query** as input.
 - Returns **1 to 10 relevant SHL assessments** based on semantic similarity.
@@ -21,7 +21,7 @@ This project builds an intelligent recommendation system to assist hiring manage
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 
 ```
 Embeddings_shl/
@@ -42,7 +42,7 @@ Embeddings_shl/
 ```
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Task | Tool |
 |------|------|
@@ -53,7 +53,7 @@ Embeddings_shl/
 
 ---
 
-## 🧠 Your Approach
+## Your Approach
 
 ### 1. Data Collection & Preprocessing
 - Scraped SHL assessments using `scraper.py`.
@@ -70,7 +70,7 @@ Embeddings_shl/
 
 ---
 
-## 💻 How to Run (Step-by-Step)
+## How to Run (Step-by-Step)
 
 ### 1. Install Dependencies
 
@@ -116,7 +116,7 @@ This script uses `query_eval_set.json` and prints out benchmark metrics.
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 - **Mean Recall@3** – Measures how many relevant items were retrieved.
 - **MAP@3 (Mean Average Precision)** – Measures quality and ranking of recommendations.
@@ -125,7 +125,7 @@ This script uses `query_eval_set.json` and prints out benchmark metrics.
 
 ---
 
-## 🧪 Sample Queries to Try
+## Sample Queries to Try
 
 - “I’m hiring for Java developers who can also collaborate with business teams. The test should be within 40 minutes.”
 - “Looking to hire mid-level professionals skilled in Python, SQL, and JavaScript. Max duration: 60 mins.”
